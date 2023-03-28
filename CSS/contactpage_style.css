@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav{
@@ -102,122 +102,6 @@ nav{
 }
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px,-6px);
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 100px;
-}
-
-.card {
-    background-color: rgb(167, 167, 167);
-    width: 470px;
-    margin: 10px;
-}
-
-body {
-    background-color: #f7f7f7;
-}
-
-.card-image {
-    height: 270px;
-    margin-bottom: 15px;
-    background-size: cover;
-
-}
-
-.car-1 {
-    background-image: url('/images/1.png');
-}
-
-.car-2 {
-    background-image: url('/images/2.png');
-}
-
-.car-3 {
-    background-image: url('/images/3.png');
-}
-
-.card p {
-    padding: 10px;
-}
-
-.card h2 {
-padding: 10px;
-}
-
-.card a {
-    background-color: rgb(51, 55, 77);
-    color: #fff;
-    padding: 15px 20px;
-    display: block;
-    text-align: center;
-    margin: 20px 50px;
-    border-radius: 15px;
-    text-decoration: none;
-}
-
-.card:hover {
-    background-color: rgb(62, 62, 62);
-    color: white;
-    cursor: pointer;
-    transition: all 0.5s ease;
-    transform: scale(1.03);
-}
-
-.image_big {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-image: url('/images/7.png');
-    background-size: cover;
-    padding-bottom: 889px;
-    z-index: -1;
-    position: relative;
-}
-
-.blur {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 5;
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 100%;
-    height: 110%;
-    backdrop-filter: blur(13px);
-}
-
-.text {
-    margin-top: 250px;
-    margin-left: 400px;
-}
-
-.text h1 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.text h2 {
-    margin-bottom: 130px;
-}
-
-.btn{
-    font-size: 13px;
-    background: rgb(51, 55, 77);
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.btn:hover{
-    -webkit-transform: scale(1.1);
-    transition: all 0.2s ease;
 }
 
 footer {
