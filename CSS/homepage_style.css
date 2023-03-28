@@ -10,10 +10,10 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: rgb(51, 55, 77);
+    background-color: #fff;
 }
 .logo{
-    color: rgb(224, 224, 224);
+    color: rgb(51, 55, 77);
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
@@ -24,7 +24,7 @@ nav{
     justify-content: space-around;
 }
 .nav-links a{
-    color: rgb(224, 224, 224);
+    color: rgb(51, 55, 77);
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -42,7 +42,7 @@ nav{
 .burger div{
     width: 25px;
     height: 3px;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(51, 55, 77);
     margin: 5px;
     transition: all 0.3s ease;
 } 
@@ -62,7 +62,7 @@ nav{
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: rgb(51, 55, 77);
+        background-color: #fff;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -104,3 +104,289 @@ nav{
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card {
+    background-color: rgb(167, 167, 167);
+    width: 470px;
+    margin: 10px;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+.card-image {
+    height: 270px;
+    margin-bottom: 15px;
+    background-size: cover;
+
+}
+
+.car-1 {
+    background-image: url('/images/1.png');
+}
+
+.car-2 {
+    background-image: url('/images/2.png');
+}
+
+.car-3 {
+    background-image: url('/images/3.png');
+}
+
+.card p {
+    padding: 10px;
+}
+
+.card h2 {
+padding: 10px;
+}
+
+.card a {
+    background-color: rgb(51, 55, 77);
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    transform: scale(1.03);
+}
+
+.image_big {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url('/images/7.png');
+    background-size: cover;
+    padding-bottom: 889px;
+    z-index: -1;
+    position: relative;
+}
+
+.blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 110%;
+    backdrop-filter: blur(13px);
+}
+
+.text {
+    margin-top: 250px;
+    margin-left: 400px;
+}
+
+.text h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text h2 {
+    margin-bottom: 130px;
+}
+
+.btn{
+    font-size: 13px;
+    background: rgb(51, 55, 77);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    -webkit-transform: scale(1.1);
+    transition: all 0.2s ease;
+}
+
+footer {
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+
+.footer-distributed h3 span {
+    color: #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #e0ac1c;
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #3F71EA;
+}
+
+.footer-links a:hover {
+    color: #3F71EA;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}       
